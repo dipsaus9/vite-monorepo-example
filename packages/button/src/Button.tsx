@@ -1,5 +1,5 @@
-import { ReactElement } from "react"
+import { ReactNode } from "react"
 
-export function Button({ children }: { children: ReactElement | string }) {
+export function Button({ children }: { children: ReactNode }) {
   return <button type="button">{children}</button>
 }
