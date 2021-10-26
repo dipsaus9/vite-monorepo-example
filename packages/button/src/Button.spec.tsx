@@ -8,4 +8,10 @@ describe("Button", () => {
 
     expect(getByText("Button text")).toHaveAttribute("type", "button")
   })
+
+  it("renders type attribute", async () => {
+    const { getByText } = render(<Button type="submit">Button text</Button>)
+
+    expect(getByText("Button text")).toHaveAttribute("type", "submit")
+  })
 })
