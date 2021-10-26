@@ -8,7 +8,7 @@
   "scripts": {
     "build": "vite build",
     "build:watch": "vite build --watch",
-    "lint": "eslint ./src && stylelint ./src/**/*.css",
+    "lint": "eslint ./src",
     "tsc": "tsc"
   },
   "types": "./src/button.d.ts"
