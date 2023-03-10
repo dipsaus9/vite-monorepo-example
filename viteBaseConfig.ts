@@ -1,7 +1,7 @@
 import path from "path"
 
 import { UserConfigExport } from "vite"
-import dts from "vite-dts"
+import dts from "vite-plugin-dts"
 
 export function getBaseViteConfig(
   dirname: string,
